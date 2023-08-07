@@ -1,0 +1,174 @@
+@media all and (max-width: 1700px){
+    .wrapper-hd{
+        width: 100%;
+        padding-inline: 50px;
+    }
+}
+@media all and (max-width: 1440px){
+    .wrapper-bd{
+        width: 100%;
+        padding-inline: 50px;
+    }
+    .about-us-section .about-us-image img {
+        width: 100%;
+    }
+    .about-us-section .about-content{
+        width: 45%;
+    }
+    .about-us-section .about-content .holder{
+        padding-top: 100px;
+        width: 100%;
+    }
+}
+@media all and (max-width: 1140px){
+    .about-us-section .about-content{
+        width: 50%;
+    }
+    .about-us-section .about-content .holder{
+        padding-top: 50px;
+        width: 100%;
+    }
+    .tours-brief-section .wrapper-bd .title{
+        width: 70%;
+    }
+}
+@media all and (max-width: 1100px){
+    footer .bm-footer .social-media{
+        width: 30%;
+    }
+}
+@media all and (max-width: 995px){
+    .hero-section .hero-content h1{
+        font-size: 40px
+    }
+    .hero-section .hero-content p{
+        font-size: 20px;
+    }
+    .about-us-section  .about-content.column, .about-us-image.column{
+        width: 100%;
+        padding-right: 0;
+    }
+    .about-us-section .about-content .holder{
+        width: 100%;
+    }
+    .about-us-section .about-content .holder p{
+        width: 100%;
+    }
+    .tours-brief-section .wrapper-bd .tour-option ul li{
+        width: 50%;
+    }
+    .tours-brief-section .wrapper-bd .tour-option ul li p{
+        width: 35ch;
+        margin: 0 auto;
+    }
+    .slider-section .title h2{
+        font-size: 40px;
+        line-height: normal;
+    }
+    .slider-section .title p{
+        font-size: 18px;
+        width: 70%;
+    }
+    .recent-blog-post .title h2{
+        font-size: 40px;
+    }
+    .recent-blog-post .title p{
+        width: 70% ;
+        font-size: 18px;
+    }
+    .recent-blog-post .posts ul .column{
+        width: 50%;
+    }
+    .recent-blog-post .posts ul .post-3{
+        width: 100%;
+    }
+    .happy-customers .testimonials .column{
+        width: 50%;
+    }
+    .happy-customers .testimonials .customer-3{
+        width: 100%;
+    }
+    .top-destinations .title p{
+        font-size: 16px;
+    }
+    .top-destinations .rateing .column{
+        width: 50%;
+    }
+    footer .bm-footer .social-media{
+        width: 50%;
+    }
+}
+@media all and (max-width: 780px){
+    .hero-section .hero-content .visit-button{
+        width: 90%;
+    }
+    .tours-brief-section .wrapper-bd .tour-option ul li{
+        width: 100%;
+    } 
+    .tours-brief-section .wrapper-bd .tour-option ul li p{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .tours-brief-section .wrapper-bd .title{
+        width: 100%;
+    }
+    .slider-section .title h2{
+        width: 65%;
+    }
+    .slider-section .title p{
+        width: 100%;
+    }
+    .recent-blog-post .title p{
+        width: 100%;
+    }
+    .top-destinations .title p{
+        width: 100%;
+    }
+    footer .footer-content .column{
+        width: 100%;
+    }
+}
+@media all and (max-width: 680px){
+    .slider-section .title h2{
+        width: 100%;
+    }
+    .recent-blog-post::before{
+        content: "";
+        height: 200px;
+        top: -150px;
+    }
+    .recent-blog-post .posts ul .column{
+        width: 100%;
+    }
+    .happy-customers h2{
+        font-size: 40px;
+    }
+    .happy-customers .testimonials .column{
+        width: 100%;
+    }
+    .top-destinations .rateing .column{
+        width: 100%;
+    }
+}
+@media all and (max-width: 580px){
+    .slider-section .title p{
+        font-size: 16px;
+    }
+    footer .bm-footer .social-media{
+        width: 80%;
+    }
+}
+@media all and (max-width: 550px){
+    .wrapper-bd{
+        padding-inline: 10px;
+    }
+}
+@media all and (max-width: 350px){
+    .slider-section .slider .slider-dots li button{
+        border-radius: 100%;
+        border: none;
+        width: 5px;
+        height: 5px;
+        cursor: pointer;
+    }
+}

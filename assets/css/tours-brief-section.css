@@ -1,0 +1,61 @@
+.tours-brief-section{
+    padding: 126px 0;
+    background: #fafafa;
+    border-top: 1px solid #e0e0e0;
+}
+.tours-brief-section .wrapper-bd .title{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.tours-brief-section .wrapper-bd .title h2{
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.tours-brief-section .wrapper-bd .title p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+.tours-brief-section .wrapper-bd .tour-option{
+    margin: 0 auto;
+}
+.tours-brief-section .wrapper-bd .tour-option ul li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 0 15px;
+}
+/* .tours-brief-section .wrapper-bd .tour-option ul li:nth-child(1){
+    padding-left:0 ;
+}
+.tours-brief-section .wrapper-bd .tour-option ul li:nth-child(3){
+    padding-right:0 ;
+}
+.tours-brief-section .wrapper-bd .tour-option ul li:nth-child(4){
+    padding-left:0 ;
+}
+.tours-brief-section .wrapper-bd .tour-option ul li:nth-child(6){
+    padding-right:0 ;
+} */
+.tours-brief-section .wrapper-bd .tour-option ul li .holder{
+    width: 100%;
+    margin: 0 auto;
+}
+.tours-brief-section .wrapper-bd .tour-option ul li img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 24px;
+}
+.tours-brief-section .wrapper-bd .tour-option ul li h3{
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.tours-brief-section .wrapper-bd .tour-option ul li p{
+    font-weight: 200;
+    margin-bottom: 16px;
+}

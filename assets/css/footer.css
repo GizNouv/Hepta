@@ -1,0 +1,125 @@
+footer{
+    font-size: 18px;
+    background: #1a1a1a;
+    padding: 126px 0;
+    color:  rgba(255, 255, 255, 0.5);
+}
+footer .footer-content{
+    margin-bottom: 24px;
+}
+footer .footer-content .column{
+    width: 25%;
+    float: left;
+    font-family: 'Mukta Mahee';
+    font-weight: 200;
+    margin-bottom: 48px;
+    padding: 0 15px;
+}
+footer .footer-content .column a:hover{
+    color: white;
+}
+footer .footer-content .column h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+footer .footer-content .column-3{
+    padding-right: 48px;
+}
+footer .footer-content .column .links li{
+    margin-bottom: 10px;
+}
+footer .footer-content .column-3 span{
+    display: block;
+}
+footer .footer-content .column-3 span.subtitle{
+    font-style: italic;
+    color: white;
+}
+footer .footer-content .column-3 span.content{
+    margin-bottom: 16px;
+}
+footer .footer-content .column-3 a{
+    margin-bottom: 16px;  
+}
+footer .footer-content .column-4 .email-input{
+    position: relative;
+}
+footer .footer-content .column-4 .email-input input{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);;
+    padding: 8px 16px 16px;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+}
+footer .footer-content .column-4 .email-input button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 0.15s;
+}
+footer .footer-content .column-4 .email-input button:hover{
+    color: #65c0ba;
+}
+footer .bm-footer{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding-top: 50px ;
+}
+footer .bm-footer .copyright{
+    font-weight: 200;
+    margin-bottom: 24px;
+}
+footer .bm-footer .copyright a{
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.15s;
+}
+footer .bm-footer .copyright a:hover{
+    color: white;
+}
+footer .bm-footer .social-media{
+    width: 20%;
+    margin: 0 auto;
+}
+footer .bm-footer .social-media li{
+    color: rgba(255, 255, 255, 0.7);
+    float: left;
+    width: 20%;
+}
+footer .bm-footer .social-media li a{
+    transition: all 0.5s;
+}
+footer .bm-footer .social-media .facebook:hover a{
+    background: #4267B3;
+    color: white;
+}
+footer .bm-footer .social-media .twitter:hover a{
+    background: #08a0e9;
+    color: white;
+}
+footer .bm-footer .social-media .instagram:hover a{
+    background: #dd2a7b;
+    color: white;
+}
+footer .bm-footer .social-media .linkedin:hover a{
+    background: #0077b5;
+    color: white;
+}
+footer .bm-footer .social-media .youtube:hover a{
+    background: #e62117;
+    color: white;
+}
+footer .bm-footer .social-media li a{
+    padding: 10px;
+}

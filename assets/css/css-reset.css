@@ -1,0 +1,60 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after,.clearfix::before{
+    content:"";
+    display: table;
+    clear: both;
+}
+.wrapper-hd{
+    width: 1600px;
+    margin: 0 auto;
+}
+.wrapper-bd{
+    width: 1140px;
+    margin: 0 auto;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Abril Fatface', cursive;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.small-title{
+    font-size: 32px;
+    font-weight: 300;
+}
+p{
+    font-family: 'Mukta Mahee';
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 32px;
+}
+blockquote{
+    font-family: 'Mukta Mahee' ;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: italic;
+}
+cite{
+    font-family: 'Mukta Mahee' ;
+    font-weight: 200;
+    font-size: 18px;
+    font-style: italic;
+    color: #6c757d;
+}
+span{
+    font-family: 'Mukta Mahee';
+    display: block;
+}
+.mb-16{
+    margin-bottom: 16px;
+}

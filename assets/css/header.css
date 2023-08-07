@@ -1,0 +1,23 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 60px 0;
+    z-index: 3;
+    color: #fff;
+}
+header nav .logo{
+    float: left;
+    font-size: 30px;
+}
+header nav .menu{
+    color: #fff;
+    border: none;
+    background: none;
+    cursor: pointer;
+    float: right;
+}
+header nav .menu i{
+    font-size: 38px;
+}

@@ -1,0 +1,65 @@
+.about-us-section{
+    padding: 126px 0;
+}
+.about-us-section .column{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.about-us-section .about-us-image{
+    padding-right: 70px;
+}
+.about-us-section .about-us-image img{
+    width: 100%;
+    height: auto;
+}
+.about-us-section .about-content .holder{
+    padding-top: 128px;
+}
+.about-us-section .about-content .hover-link a{
+    display: inline-block;
+    margin-top: 24px;
+    padding: 10px 30px 10px 0;
+    transition: all 1s;
+}
+.about-us-section .about-content h2{
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.about-us-section .about-content p{
+    margin-bottom: 16px;
+    font-weight: 200;
+    width: 85%;
+}
+.about-us-section .about-content .hover-link a .video-link .play-button{
+    float: left;
+    padding-right: 15px;
+}
+.about-us-section .about-content .hover-link a .video-link .watch-vid-text-link{
+    float: right;
+    padding-top: 13px;
+}
+.about-us-section .about-content .hover-link a .video-link .play-button svg{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.about-us-section .about-content .hover-link a:hover .video-link .play-button svg polygon{
+    fill: white;
+}
+.about-us-section .about-content .hover-link a:hover .video-link .play-button svg circle{
+    fill: #65c0ba;
+    stroke: none;
+}
+.about-us-section .about-content .hover-link a .video-link .watch-vid-text-link span{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'open sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #65c0ba;
+}
+.about-us-section .about-content .hover-link a:hover .video-link .watch-vid-text-link span{
+    color:hsl(176, 42%, 30%)
+}
